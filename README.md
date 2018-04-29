@@ -1,6 +1,13 @@
 # Easy-switch-linux
 Easy Switch linux or ESL
 
+
+I hold no responsability for anything that happens to your computer or your switch.
+
+this is also still a work in progress but for the most part it should work right now. 
+also if you have any issues let me know
+
+
 Before You run the Script Please download a Filesytem img of your choice and rename it to Linux-fs 
 
 
