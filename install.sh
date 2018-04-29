@@ -10,11 +10,11 @@ echo
 echo
 
 #check and create a new directory for us to work in
-if [ ! -d "./test" ]; then
-	mkdir ./test
-	cd ./test 
+if [ ! -d "./switch-linux" ]; then
+	mkdir ./switch-linux
+	cd ./switch-linux 
 else
-	cd ./test
+	cd ./switch-linux
 fi
 
 # set up a build enviroment by downloading the cross-compiling tools

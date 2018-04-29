@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ./test
+cd ./switch-linux
 cd shofel2/exploit
 sudo ./shofel2.py cbfs.bin ../../coreboot/build/coreboot.rom
 cd ../ 
