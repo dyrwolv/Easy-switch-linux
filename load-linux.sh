@@ -1,3 +1,2 @@
 #!/bin/bash
-
-cd ./test
+echo "im still working on this script"
