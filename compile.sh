@@ -158,14 +158,17 @@ echo
 cd shofel2/exploit
 make -j8
 cd ../
+cd ../
 echo "Shofel2 Compiled"
 echo
 echo "let's compile U-boot"
+echo $PWD
 cd u-boot
 export CROSS_COMPILE=aarch64-linux-gnu-
 make nintendo-switch_defconfig 
 make -j8
 cd ../
+exit 1
 
 echo "U-boot Compiled"
 
