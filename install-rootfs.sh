@@ -44,7 +44,7 @@ echo "take note of what /dev/ device is the ext4 partition"
 sleep 5
 echo
 echo
-#sudo gparted
+sudo gparted
 echo
 echo
 echo
@@ -69,7 +69,7 @@ if $wehavezip ; then
 sudo unzip -a ./linux-fs.zip -d ./sdroot; sync
 fi
 if ! $wehavezip ; then
-tar xvf ./linux-fs.tar.bz2 -C ./sdroot; sync
+sudo tar xvf ./linux-fs.tar.bz2 -C ./sdroot; sync
 fi
 #cp ./linux-fs.zip ./sdroot/root; sync
 
