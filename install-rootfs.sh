@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir switch-linux
 cd ./switch-linux
 echo
 echo "lets see if we have a root fs in our folder"

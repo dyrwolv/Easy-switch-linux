@@ -2,7 +2,7 @@
 
 #we need to make sure that we have some required tools and if we dont we need to install them
 echo "installing required programs"
-sudo apt-get install build-essential libssl-dev swig bison zlib1g-dev flex python3 python-dev python3-pip libusb-1.0-0-dev gparted
+sudo apt-get install build-essential libssl-dev swig bison pkg-config zlib1g-dev flex python3 python-dev python3-pip libusb-1.0-0-dev gparted
 sudo pip3 install pyusb==1.0.0
 
 echo
@@ -237,7 +237,7 @@ cd ../
 echo
 echo
 echo
-
+exit 1
 
 #lets cd into the linux dir
 cd linux
