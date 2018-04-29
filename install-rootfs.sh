@@ -5,7 +5,7 @@ echo "lets see if we have a root fs in our folder"
 echo
 echo
 echo
-
+linuxfs=true
 if [ -f "./linux-fs.zip" ]; then
 echo "we found a linux-fs.zip"
 linuxfs=false
