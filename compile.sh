@@ -104,7 +104,6 @@ echo
 echo
 aarch64-linux-gnu-gcc
 
-
 #Time to Download the repo's for loading switch linux
 echo
 echo
