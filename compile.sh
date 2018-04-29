@@ -103,7 +103,7 @@ echo "Let's test to see if the tools work"
 echo
 echo
 aarch64-linux-gnu-gcc
-fi
+
 
 #Time to Download the repo's for loading switch linux
 echo
