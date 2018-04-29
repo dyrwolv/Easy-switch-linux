@@ -138,7 +138,7 @@ fi
 	echo "we dont have u-boot, so let's download it"
 	echo
 	echo
-	git clone https://github.com/fail0verflow/switch-u-boot.git u-boot4
+	git clone https://github.com/fail0verflow/switch-u-boot.git u-boot
 fi
 	if [ ! -d "./linux" ]; then
   # Control will enter here if linux doesn't exist.
