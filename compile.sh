@@ -237,7 +237,7 @@ cd ../
 echo
 echo
 echo
-exit 1
+#exit 1
 
 #lets cd into the linux dir
 cd linux
