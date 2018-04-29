@@ -20,7 +20,7 @@ Arch Linux with KDE and GPU power management service (credits to @Gigaa) : https
 
 
 
-Before You run the Script Please download a Filesytem img of your choice and rename it to Linux-fs 
+Before You run the Script Please download a Filesytem img of your choice and rename it to Linux-fs and move it to the switch-linux folder
 
 
 take a microSD card and, using the software of your choice (I used GParted) :
