@@ -31,8 +31,7 @@ if [ ! -d "./build-tool" ]; then
 	echo	
 	echo
 	mkdir ./build-tool
-	cd build-tool
-else
+fi
 cd build-tool
 
 linuxgnu="gcc-linaro-7.2.1-2017.11-x86_64_aarch64-linux-gnu.tar.xz"
@@ -162,13 +161,11 @@ cd ../
 echo "Shofel2 Compiled"
 echo
 echo "let's compile U-boot"
-echo $PWD
 cd u-boot
 export CROSS_COMPILE=aarch64-linux-gnu-
 make nintendo-switch_defconfig 
 make -j8
 cd ../
-exit 1
 
 echo "U-boot Compiled"
 
